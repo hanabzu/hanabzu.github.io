@@ -7,7 +7,7 @@ subtitle: 항목 1 ~ 3
 
 author: hanabzu
 
-categories: Effective C++
+categories: [Effective C++]
 
 tags: ECpp Cpp
 
