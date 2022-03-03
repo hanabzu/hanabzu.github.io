@@ -46,8 +46,8 @@ copyright: "Github Blog 2022-{currentYear} {author}"
 description: >- # this means to ignore newlines until "baseurl:"
   hanabzu Github Blog
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://hanabzu.github.io/" # the subpath of your site, e.g. /blog
+url: "https://hanabzu.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
