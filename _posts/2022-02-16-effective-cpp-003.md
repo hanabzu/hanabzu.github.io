@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Effective C++ 정리 3. 생성자
+title: Effective C++ 정리 3. - 생성자
 
 subtitle: 항목 5 ~ 6
 
@@ -65,6 +65,7 @@ NamedObject<int> no2(no1); // 복사 생성자 호출
 컴파일러가 만든 복사 생성자는 `no1.nameValue`와 `no1.objectValue`를 사용해 `no2.nameValue`와 `no2.objectValue`를 각각 초기화한다. `nameValue`의 타입은 `string`인데, 표준 `string` 타입은 자체적으로 복사 생성자를 지니고 있으므로 `string`의 복사 생성자에 `no1.nameValue`를 인자로 넘겨 호출하여 초기화한다. `objectValue`의 타입은 현재 템플릿 인스턴스화에서 `T`가 `int`로 기본 제공 타입이므로 각 비트를 그대로 복사해온다.  
 
 이렇듯 컴파일러가 만드는 `NamedObject<int>`의 복사 대입 연산자도 근본적으로는 동작 원리가 같지만, 최종 결과 코드가 'legal'하고 'reasonable'해야한다.  
+
 다음과 같이 정의되었다고 가정하자.  
 
 ```cpp
