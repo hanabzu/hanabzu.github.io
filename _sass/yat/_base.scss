@@ -145,6 +145,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
+  font-family: 'Nanum Gothic Coding', "Consolas", monospace;
   color: $text-color;
 }
 
