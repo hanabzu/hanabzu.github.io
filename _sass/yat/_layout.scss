@@ -418,15 +418,15 @@ html {
     }
 
     h3 {
-      @include relative-font-size(1.6);
+      @include relative-font-size(1.4);
 
       @include media-query($on-laptop) {
-        @include relative-font-size(1.375);
+        @include relative-font-size(1.325);
       }
     }
 
     h4 {
-      @include relative-font-size(1.25);
+      @include relative-font-size(1.2);
 
       @include media-query($on-laptop) {
         @include relative-font-size(1.125);
