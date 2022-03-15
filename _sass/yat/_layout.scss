@@ -410,15 +410,15 @@ html {
     word-break: normal;
 
     h2 {
-      @include relative-font-size(2);
+      @include relative-font-size(1.8);
 
       @include media-query($on-laptop) {
-        @include relative-font-size(1.75);
+        @include relative-font-size(1.7);
       }
     }
 
     h3 {
-      @include relative-font-size(1.625);
+      @include relative-font-size(1.6);
 
       @include media-query($on-laptop) {
         @include relative-font-size(1.375);
@@ -510,10 +510,13 @@ html {
   padding: 31px 0 0;
 
   a {
-    @include relative-font-size(1.125);
-    line-height: 15px;
+    @include relative-font-size(1.0);
+    @include media-query($on-laptop) {
+      @include relative-font-size(0.8);
+    }
+    line-height: 25px;
     color: #666;
-    max-width: 50%;
+    max-width: 45%;
   }
 
   .previous:before {
