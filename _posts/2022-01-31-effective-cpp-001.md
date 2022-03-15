@@ -148,7 +148,7 @@ CALL_WITH_MAX(++a, b+10)    // a가 한 번 증가한다.
 
 ```cpp
 template<typename T>
-inline vid callWithMax(const T& a, const T& b) {
+inline void callWithMax(const T& a, const T& b) {
   f(a > b? a : b);
 }
 ```
