@@ -7,7 +7,7 @@ subtitle: 22.1.3 ~ 22.1.14
 
 author: hanabzu
 
-categories: 교육
+categories: 후기
 
 tags: SDS Algorithm 
 
