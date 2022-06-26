@@ -9,7 +9,7 @@ author: hanabzu
 
 categories: 후기
 
-tags: SDS Algorithm 
+tags: SDS Algorithm 코딩테스트 후기
 
 ---
 
